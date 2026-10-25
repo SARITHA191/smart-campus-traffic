@@ -2,8 +2,8 @@
 import { useCallback, useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api/traffic";
-const HISTORY_URL = "http://localhost:5000/api/traffic/history";
+const API_URL = "https://smart-campus-traffic-api.onrender.com/api/traffic";
+const HISTORY_URL = "https://smart-campus-traffic-api.onrender.com/api/traffic/history";
 
 function formatTime(value) {
   if (!value) return "—";
